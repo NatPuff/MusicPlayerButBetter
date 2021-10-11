@@ -26,8 +26,10 @@ struct TitleAuthorStack: View {
     }
 }
 
-struct Song_Previews: PreviewProvider {
+struct SongLayout_Previews: PreviewProvider {
     static var previews: some View {
         TitleAuthorStack(song: .init(), titleFont: .title, authorFont:.title2)
     }
 }
+
+

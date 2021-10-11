@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct SongView: View {
     let Playlist = SongPlaylist()
     var body: some View {
         
         List(Playlist.songs) { song in SongRow(song: song)
             
         }
-        .navigationBarTitle("Song Library")
+        .navigationBarTitle("Songs in My Playlist")
             
 }
 }
@@ -24,7 +24,7 @@ struct ContentView_Previews: PreviewProvider {
         let playlist = SongPlaylist()
         
         NavigationView{
-        HomeView()
+        SongView()
             SongRow(song: playlist.songs.first!)
         }
     }

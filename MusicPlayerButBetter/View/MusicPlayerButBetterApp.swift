@@ -12,7 +12,7 @@ struct MusicPlayerButBetterApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                HomeView()
+                PlaylistView()
             }
         }
     }
