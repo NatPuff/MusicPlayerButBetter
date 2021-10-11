@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3A45A32712296F00CBE4C0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A45A22712296F00CBE4C0 /* DetailView.swift */; };
+		5D3A45A8271239BC00CBE4C0 /* SongViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A45A7271239BC00CBE4C0 /* SongViews.swift */; };
 		5D6E228E27110220003BBC9E /* MusicPlayerButBetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E228D27110220003BBC9E /* MusicPlayerButBetterApp.swift */; };
-		5D6E229027110220003BBC9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E228F27110220003BBC9E /* ContentView.swift */; };
+		5D6E229027110220003BBC9E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E228F27110220003BBC9E /* HomeView.swift */; };
 		5D6E229227110221003BBC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E229127110221003BBC9E /* Assets.xcassets */; };
 		5D6E229527110221003BBC9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E229427110221003BBC9E /* Preview Assets.xcassets */; };
 		5D6E229F27110221003BBC9E /* MusicPlayerButBetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E229E27110221003BBC9E /* MusicPlayerButBetterTests.swift */; };
 		5D6E22A927110221003BBC9E /* MusicPlayerButBetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E22A827110221003BBC9E /* MusicPlayerButBetterUITests.swift */; };
 		5D6E22AB27110221003BBC9E /* MusicPlayerButBetterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E22AA27110221003BBC9E /* MusicPlayerButBetterUITestsLaunchTests.swift */; };
+		5D6E22BE271107D8003BBC9E /* Oolacile - Hopele555.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E22BB271107D7003BBC9E /* Oolacile - Hopele555.mp3 */; };
+		5D6E22BF271107D8003BBC9E /* DDD - Glass Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E22BC271107D7003BBC9E /* DDD - Glass Heart.mp3 */; };
+		5D6E22C0271107D8003BBC9E /* Neonix - Translucence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E22BD271107D7003BBC9E /* Neonix - Translucence.mp3 */; };
+		5D6E22C4271126E0003BBC9E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E22C3271126E0003BBC9E /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3A45A22712296F00CBE4C0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5D3A45A7271239BC00CBE4C0 /* SongViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViews.swift; sourceTree = "<group>"; };
 		5D6E228A27110220003BBC9E /* MusicPlayerButBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerButBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6E228D27110220003BBC9E /* MusicPlayerButBetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerButBetterApp.swift; sourceTree = "<group>"; };
-		5D6E228F27110220003BBC9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D6E228F27110220003BBC9E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5D6E229127110221003BBC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E229427110221003BBC9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D6E229A27110221003BBC9E /* MusicPlayerButBetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerButBetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,10 @@
 		5D6E22A427110221003BBC9E /* MusicPlayerButBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerButBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6E22A827110221003BBC9E /* MusicPlayerButBetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerButBetterUITests.swift; sourceTree = "<group>"; };
 		5D6E22AA27110221003BBC9E /* MusicPlayerButBetterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerButBetterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D6E22BB271107D7003BBC9E /* Oolacile - Hopele555.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Oolacile - Hopele555.mp3"; path = "../../../../Oolacile - Hopele555.mp3"; sourceTree = "<group>"; };
+		5D6E22BC271107D7003BBC9E /* DDD - Glass Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "DDD - Glass Heart.mp3"; path = "../../../../DDD - Glass Heart.mp3"; sourceTree = "<group>"; };
+		5D6E22BD271107D7003BBC9E /* Neonix - Translucence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Neonix - Translucence.mp3"; path = "../../../../Neonix - Translucence.mp3"; sourceTree = "<group>"; };
+		5D6E22C3271126E0003BBC9E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,9 @@
 		5D6E228C27110220003BBC9E /* MusicPlayerButBetter */ = {
 			isa = PBXGroup;
 			children = (
-				5D6E228D27110220003BBC9E /* MusicPlayerButBetterApp.swift */,
-				5D6E228F27110220003BBC9E /* ContentView.swift */,
+				5D6E22B7271105DD003BBC9E /* Audio */,
+				5D6E22C2271126B5003BBC9E /* Model */,
+				5D6E22C1271126A8003BBC9E /* View */,
 				5D6E229127110221003BBC9E /* Assets.xcassets */,
 				5D6E229327110221003BBC9E /* Preview Content */,
 			);
@@ -125,6 +138,35 @@
 				5D6E22AA27110221003BBC9E /* MusicPlayerButBetterUITestsLaunchTests.swift */,
 			);
 			path = MusicPlayerButBetterUITests;
+			sourceTree = "<group>";
+		};
+		5D6E22B7271105DD003BBC9E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5D6E22BC271107D7003BBC9E /* DDD - Glass Heart.mp3 */,
+				5D6E22BD271107D7003BBC9E /* Neonix - Translucence.mp3 */,
+				5D6E22BB271107D7003BBC9E /* Oolacile - Hopele555.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		5D6E22C1271126A8003BBC9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D6E228D27110220003BBC9E /* MusicPlayerButBetterApp.swift */,
+				5D6E228F27110220003BBC9E /* HomeView.swift */,
+				5D3A45A22712296F00CBE4C0 /* DetailView.swift */,
+				5D3A45A7271239BC00CBE4C0 /* SongViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D6E22C2271126B5003BBC9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D6E22C3271126E0003BBC9E /* Song.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +273,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6E22BE271107D8003BBC9E /* Oolacile - Hopele555.mp3 in Resources */,
 				5D6E229527110221003BBC9E /* Preview Assets.xcassets in Resources */,
+				5D6E22BF271107D8003BBC9E /* DDD - Glass Heart.mp3 in Resources */,
+				5D6E22C0271107D8003BBC9E /* Neonix - Translucence.mp3 in Resources */,
 				5D6E229227110221003BBC9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6E229027110220003BBC9E /* ContentView.swift in Sources */,
+				5D6E22C4271126E0003BBC9E /* Song.swift in Sources */,
+				5D6E229027110220003BBC9E /* HomeView.swift in Sources */,
+				5D3A45A32712296F00CBE4C0 /* DetailView.swift in Sources */,
 				5D6E228E27110220003BBC9E /* MusicPlayerButBetterApp.swift in Sources */,
+				5D3A45A8271239BC00CBE4C0 /* SongViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

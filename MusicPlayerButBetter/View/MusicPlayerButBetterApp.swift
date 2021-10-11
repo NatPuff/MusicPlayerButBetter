@@ -11,7 +11,9 @@ import SwiftUI
 struct MusicPlayerButBetterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                HomeView()
+            }
         }
     }
 }
